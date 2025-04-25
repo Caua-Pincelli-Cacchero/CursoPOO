@@ -1,4 +1,4 @@
-package Aula07;
+package Aula07_08;
 
 public class Lutador {
     private String nome;
@@ -54,7 +54,7 @@ public class Lutador {
         this.altura = a;
     }
 
-    private String getCategoria() {
+    String getCategoria() {
         return this.categoria;
 
     }
